@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>حذف الحساب - Solvely AI</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.8;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 700px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+        }
+
+        h1 {
+            color: #e53935;
+            margin-bottom: 10px;
+            font-size: 1.8em;
+            text-align: center;
+        }
+
+        .subtitle {
+            color: #888;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+        h2 {
+            color: #764ba2;
+            margin-top: 25px;
+            margin-bottom: 15px;
+            font-size: 1.3em;
+        }
+
+        h3 {
+            color: #667eea;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            font-size: 1.1em;
+        }
+
+        p,
+        li {
+            margin-bottom: 10px;
+            color: #555;
+        }
+
+        ol,
+        ul {
+            padding-right: 25px;
+        }
+
+        ol li {
+            margin-bottom: 12px;
+        }
+
+        .highlight {
+            background: #fff3e0;
+            padding: 20px;
+            border-radius: 10px;
+            border-right: 4px solid #ff9800;
+            margin: 20px 0;
+        }
+
+        .warning {
+            background: #ffebee;
+            padding: 20px;
+            border-radius: 10px;
+            border-right: 4px solid #e53935;
+            margin: 20px 0;
+        }
+
+        .success {
+            background: #e8f5e9;
+            padding: 20px;
+            border-radius: 10px;
+            border-right: 4px solid #4caf50;
+            margin: 20px 0;
+        }
+
+        .app-icon {
+            text-align: center;
+            font-size: 4em;
+            margin-bottom: 15px;
+        }
+
+        .steps {
+            background: #f5f5f5;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+
+        .steps ol li {
+            padding: 8px 0;
+            border-bottom: 1px solid #e0e0e0;
+        }
+
+        .steps ol li:last-child {
+            border-bottom: none;
+        }
+
+        .contact {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 30px;
+            text-align: center;
+        }
+
+        .contact a {
+            color: #fff;
+        }
+
+        .lang-switch {
+            text-align: left;
+            margin-bottom: 20px;
+        }
+
+        .lang-switch a {
+            color: #667eea;
+            text-decoration: none;
+            padding: 8px 16px;
+            border: 1px solid #667eea;
+            border-radius: 20px;
+        }
+
+        .back-link {
+            display: block;
+            text-align: center;
+            margin-top: 20px;
+            color: #667eea;
+            text-decoration: none;
+        }
+
+        .checkmark {
+            color: #4caf50;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="lang-switch">
+            <a href="#" onclick="toggleLang()">English</a>
+        </div>
+
+        <div id="ar-content">
+            <div class="app-icon">🦉</div>
+            <h1>🗑️ حذف الحساب</h1>
+            <p class="subtitle">تطبيق Solvely AI - مساعد الدراسة الذكي</p>
+
+            <div class="warning">
+                <strong>⚠️ تنبيه:</strong> حذف الحساب عملية نهائية ولا يمكن التراجع عنها.
+            </div>
+
+            <h2>📱 كيفية حذف حسابك من التطبيق:</h2>
+            <div class="steps">
+                <ol>
+                    <li>افتح تطبيق <strong>Solvely AI</strong></li>
+                    <li>اذهب إلى <strong>الملف الشخصي</strong> (Profile) من القائمة السفلية</li>
+                    <li>انزل للأسفل واضغط على <strong>"حذف الحساب"</strong> (Delete Account)</li>
+                    <li>أدخل <strong>كلمة المرور</strong> للتأكيد</li>
+                    <li>اضغط <strong>"تأكيد الحذف"</strong></li>
+                    <li>سيتم حذف حسابك وبياناتك <strong>فوراً</strong></li>
+                </ol>
+            </div>
+
+            <h2>📋 البيانات التي سيتم حذفها:</h2>
+            <ul>
+                <li><span class="checkmark">✅</span> البريد الإلكتروني ومعلومات الحساب</li>
+                <li><span class="checkmark">✅</span> جميع الأسئلة والإجابات المحفوظة</li>
+                <li><span class="checkmark">✅</span> بيانات التقدم والنقاط والإنجازات</li>
+                <li><span class="checkmark">✅</span> خطط الدراسة والمهام</li>
+                <li><span class="checkmark">✅</span> سجل المحادثات مع المساعد الذكي</li>
+                <li><span class="checkmark">✅</span> جميع البيانات المرتبطة بحسابك</li>
+            </ul>
+
+            <h2>⏰ البيانات التي قد تُحتفظ بها مؤقتاً:</h2>
+            <ul>
+                <li>سجلات الاشتراكات والمدفوعات (لمدة 30 يوماً للامتثال القانوني)</li>
+            </ul>
+
+            <h2>📧 طلب الحذف عبر البريد الإلكتروني:</h2>
+            <div class="highlight">
+                <p>إذا لم تستطع حذف حسابك من التطبيق، يمكنك إرسال طلب حذف إلى:</p>
+                <p style="font-size: 1.2em; text-align: center; margin: 15px 0;">
+                    <strong><a href="mailto:bestlifecare1@gmail.com">bestlifecare1@gmail.com</a></strong>
+                </p>
+                <p>يرجى تضمين البريد الإلكتروني المرتبط بحسابك في الطلب.</p>
+            </div>
+
+            <div class="success">
+                <strong>✅ مدة المعالجة:</strong> سيتم معالجة طلبك خلال 7 أيام عمل كحد أقصى.
+            </div>
+
+            <div class="contact">
+                <h3 style="color: white; margin-top: 0;">📞 تحتاج مساعدة؟</h3>
+                <p>تواصل معنا: <a href="mailto:bestlifecare1@gmail.com">bestlifecare1@gmail.com</a></p>
+            </div>
+
+            <a href="https://bestlifecare1.github.io/solvely-privacy/" class="back-link">← العودة لسياسة الخصوصية</a>
+        </div>
+
+        <div id="en-content" style="display:none; direction:ltr; text-align:left;">
+            <div class="app-icon">🦉</div>
+            <h1>🗑️ Delete Account</h1>
+            <p class="subtitle">Solvely AI - Smart Study Assistant</p>
+
+            <div class="warning">
+                <strong>⚠️ Warning:</strong> Account deletion is permanent and cannot be undone.
+            </div>
+
+            <h2>📱 How to Delete Your Account from the App:</h2>
+            <div class="steps">
+                <ol>
+                    <li>Open the <strong>Solvely AI</strong> app</li>
+                    <li>Go to <strong>Profile</strong> from the bottom navigation</li>
+                    <li>Scroll down and tap <strong>"Delete Account"</strong></li>
+                    <li>Enter your <strong>password</strong> to confirm</li>
+                    <li>Tap <strong>"Confirm Delete"</strong></li>
+                    <li>Your account and data will be deleted <strong>immediately</strong></li>
+                </ol>
+            </div>
+
+            <h2>📋 Data That Will Be Deleted:</h2>
+            <ul>
+                <li><span class="checkmark">✅</span> Email and account information</li>
+                <li><span class="checkmark">✅</span> All saved questions and answers</li>
+                <li><span class="checkmark">✅</span> Progress data, points, and achievements</li>
+                <li><span class="checkmark">✅</span> Study plans and tasks</li>
+                <li><span class="checkmark">✅</span> Chat history with AI assistant</li>
+                <li><span class="checkmark">✅</span> All data associated with your account</li>
+            </ul>
+
+            <h2>⏰ Data That May Be Retained Temporarily:</h2>
+            <ul>
+                <li>Subscription and payment records (for 30 days for legal compliance)</li>
+            </ul>
+
+            <h2>📧 Request Deletion via Email:</h2>
+            <div class="highlight">
+                <p>If you cannot delete your account from the app, you can send a deletion request to:</p>
+                <p style="font-size: 1.2em; text-align: center; margin: 15px 0;">
+                    <strong><a href="mailto:bestlifecare1@gmail.com">bestlifecare1@gmail.com</a></strong>
+                </p>
+                <p>Please include the email address associated with your account in your request.</p>
+            </div>
+
+            <div class="success">
+                <strong>✅ Processing Time:</strong> Your request will be processed within 7 business days maximum.
+            </div>
+
+            <div class="contact">
+                <h3 style="color: white; margin-top: 0;">📞 Need Help?</h3>
+                <p>Contact us: <a href="mailto:bestlifecare1@gmail.com">bestlifecare1@gmail.com</a></p>
+            </div>
+
+            <a href="https://bestlifecare1.github.io/solvely-privacy/" class="back-link">← Back to Privacy Policy</a>
+        </div>
+    </div>
+
+    <script>
+        function toggleLang() {
+            const ar = document.getElementById('ar-content');
+            const en = document.getElementById('en-content');
+            const btn = document.querySelector('.lang-switch a');
+
+            if (ar.style.display === 'none') {
+                ar.style.display = 'block';
+                en.style.display = 'none';
+                btn.textContent = 'English';
+            } else {
+                ar.style.display = 'none';
+                en.style.display = 'block';
+                btn.textContent = 'العربية';
+            }
+        }
+    </script>
+</body>
+
+</html>
