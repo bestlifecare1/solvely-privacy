@@ -1,352 +1,205 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>سياسة الخصوصية - Solvely AI</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            line-height: 1.8;
-            color: #333;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            min-height: 100vh;
-            padding: 20px;
-        }
-
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            background: white;
-            padding: 40px;
-            border-radius: 20px;
-            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
-        }
-
-        h1 {
-            color: #667eea;
-            margin-bottom: 10px;
-            font-size: 2em;
-        }
-
-        .subtitle {
-            color: #888;
-            margin-bottom: 30px;
-        }
-
-        h2 {
-            color: #764ba2;
-            margin-top: 30px;
-            margin-bottom: 15px;
-            padding-bottom: 10px;
-            border-bottom: 2px solid #eee;
-        }
-
-        p,
-        li {
-            margin-bottom: 12px;
-            color: #555;
-        }
-
-        ul {
-            padding-right: 20px;
-        }
-
-        .highlight {
-            background: #f8f9fa;
-            padding: 15px 20px;
-            border-radius: 10px;
-            border-right: 4px solid #667eea;
-            margin: 20px 0;
-        }
-
-        .contact {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: white;
-            padding: 20px;
-            border-radius: 10px;
-            margin-top: 30px;
-        }
-
-        .contact a {
-            color: #fff;
-        }
-
-        .lang-switch {
-            text-align: left;
-            margin-bottom: 20px;
-        }
-
-        .lang-switch a {
-            color: #667eea;
-            text-decoration: none;
-            padding: 8px 16px;
-            border: 1px solid #667eea;
-            border-radius: 20px;
-        }
-
-        .date {
-            color: #888;
-            font-size: 0.9em;
-        }
-    </style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>سياسة الخصوصية | Privacy Policy - Solvely AI</title>
+<style>
+:root{--bg:#fff;--fg:#1c1b2e;--mut:#5b5a70;--acc:#5b4bd6;--line:#e4e2f2}
+@media (prefers-color-scheme:dark){:root{--bg:#10102a;--fg:#ececf8;--mut:#a9a8c4;--acc:#9d90ff;--line:#2b2a4d}}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.8 system-ui,"Segoe UI",Tahoma,Arial,sans-serif}
+main{max-width:720px;margin:0 auto;padding:24px 20px 64px}
+h1{font-size:1.7rem;margin:.4em 0 0}h2{font-size:1.15rem;margin:1.8em 0 .3em;color:var(--acc)}
+p,li{margin:.3em 0}.mut{color:var(--mut);font-size:.9rem}
+ul,ol{padding-inline-start:1.4em}a{color:var(--acc)}
+.tog{display:flex;gap:8px;justify-content:flex-end}
+.tog button{background:none;border:1px solid var(--line);color:var(--fg);border-radius:20px;padding:4px 14px;cursor:pointer;font:inherit}
+.tog button[aria-pressed=true]{background:var(--acc);border-color:var(--acc);color:#fff}
+section{display:none}section.on{display:block}
+</style>
 </head>
-
 <body>
-    <div class="container">
-        <div class="lang-switch">
-            <a href="#" onclick="toggleLang()">English</a>
-        </div>
+<main>
+<div class="tog"><button id="b-ar" aria-pressed="true">العربية</button><button id="b-en" aria-pressed="false">English</button></div>
 
-        <div id="ar-content">
-            <h1>🦉 سياسة الخصوصية</h1>
-            <p class="subtitle">تطبيق Solvely AI - مساعد الدراسة الذكي</p>
-            <p class="date">آخر تحديث: يناير 2025</p>
+<section id="ar" class="on" lang="ar" dir="rtl">
+<h1>سياسة الخصوصية</h1>
+<p><strong>تطبيق Solvely AI - مساعدك في الدراسة</strong></p>
+<p class="mut">آخر تحديث: أكتوبر 2026</p>
 
-            <h2>📌 مقدمة</h2>
-            <p>نحن في Solvely AI نقدر خصوصيتك ونلتزم بحمايتها. توضح هذه السياسة كيفية جمع واستخدام وحماية معلوماتك.</p>
+<h2>مقدمة</h2>
+<p>نقدّر خصوصيتك ونلتزم بحمايتها. توضح هذه السياسة كيف نجمع معلوماتك ونستخدمها ونحميها.</p>
 
-            <h2>📊 البيانات التي نجمعها</h2>
-            <ul>
-                <li><strong>معلومات الحساب:</strong> البريد الإلكتروني عند التسجيل</li>
-                <li><strong>بيانات الاستخدام:</strong> الأسئلة والصور المرسلة للحل</li>
-                <li><strong>بيانات التقدم:</strong> نقاط اللعب والإنجازات</li>
-                <li><strong>بيانات الجهاز:</strong> نوع الجهاز ونظام التشغيل</li>
-            </ul>
+<h2>البيانات التي نجمعها</h2>
+<ul>
+<li>معلومات الحساب: البريد الإلكتروني عند التسجيل.</li>
+<li>بيانات الاستخدام: الأسئلة والصور المرسلة للشرح.</li>
+<li>بيانات التقدم: نقاط اللعب والإنجازات.</li>
+<li>بيانات الجهاز: نوع الجهاز ونظام التشغيل.</li>
+</ul>
 
-            <h2>🎯 كيف نستخدم بياناتك</h2>
-            <div class="highlight">
-                <ul>
-                    <li>تقديم خدمات حل المسائل والواجبات</li>
-                    <li>تحسين دقة الإجابات بالذكاء الاصطناعي</li>
-                    <li>تتبع تقدمك الدراسي</li>
-                    <li>إرسال إشعارات مفيدة (اختياري)</li>
-                </ul>
-            </div>
+<h2>كيف نستخدم بياناتك</h2>
+<ul>
+<li>تقديم شروحات وتدريبات تعليمية تساعدك على الفهم.</li>
+<li>تحسين جودة الشروحات المقدمة بالذكاء الاصطناعي.</li>
+<li>تتبع تقدمك الدراسي.</li>
+<li>إرسال إشعارات مفيدة (اختياري).</li>
+</ul>
 
-            <h2>🤝 مشاركة البيانات</h2>
-            <p>نستخدم الخدمات التالية:</p>
-            <ul>
-                <li><strong>Google Firebase:</strong> لتخزين البيانات والمصادقة</li>
-                <li><strong>Google Gemini AI:</strong> لمعالجة الأسئلة وتوليد الإجابات</li>
-                <li><strong>RevenueCat:</strong> لإدارة الاشتراكات</li>
-                <li><strong>Google AdMob:</strong> لعرض الإعلانات</li>
-                <li><strong>لوحة الصدارة (Leaderboard):</strong> سيظهر اسم العرض الخاص بك وصورتك ونقاطك لجميع المستخدمين
-                    الآخرين لتعزيز التنافسية.</li>
-            </ul>
-            <p>لا نبيع بياناتك الشخصية لأي طرف ثالث.</p>
-            <p>قد نعرض إعلانات مخصصة أو غير مخصصة وفق إعدادات المستخدم وسياسات Google.</p>
+<h2>الاستخدام الأكاديمي المسؤول</h2>
+<p>Solvely AI أداة تعليمية هدفها مساعدتك على الفهم والتدرب. لا يُقصد بها الغش في الاختبارات أو تقديم عمل غيرك على أنه عملك، ونرجو الالتزام بقواعد النزاهة الأكاديمية في مدرستك. قد يحتوي المحتوى الذي ينشئه الذكاء الاصطناعي على أخطاء، فتحقق من المعلومات المهمة مع معلمك أو كتابك المدرسي.</p>
 
-            <h2>🔒 أمان البيانات</h2>
-            <p>نحمي بياناتك من خلال:</p>
-            <ul>
-                <li>تشفير البيانات أثناء النقل (HTTPS)</li>
-                <li>قواعد أمان Firestore</li>
-                <li>مصادقة آمنة عبر Firebase Auth</li>
-            </ul>
+<h2>مشاركة البيانات</h2>
+<p>نستخدم الخدمات التالية:</p>
+<ul>
+<li>Google Firebase: لتخزين البيانات والمصادقة.</li>
+<li>Google Gemini AI: لمعالجة الأسئلة وتوليد الشروحات.</li>
+<li>Google AdMob: لعرض الإعلانات.</li>
+<li>لوحة الصدارة (Leaderboard): يظهر اسم العرض الخاص بك وصورتك ونقاطك لجميع المستخدمين الآخرين.</li>
+</ul>
+<p>لا نبيع بياناتك الشخصية لأي طرف ثالث. قد نعرض إعلانات مخصصة أو غير مخصصة وفق إعدادات المستخدم وسياسات Google.</p>
 
-            <h2>📷 الأذونات</h2>
-            <ul>
-                <li><strong>الكاميرا:</strong> لتصوير المسائل والواجبات</li>
-                <li><strong>الميكروفون:</strong> للإدخال الصوتي وطرح الأسئلة بالصوت</li>
-                <li><strong>التخزين:</strong> لحفظ الصور المختارة</li>
-            </ul>
+<h2>أمان البيانات</h2>
+<ul>
+<li>تشفير البيانات أثناء النقل (HTTPS).</li>
+<li>قواعد أمان Firestore.</li>
+<li>مصادقة آمنة عبر Firebase Auth.</li>
+</ul>
 
-            <h2>👶 خصوصية الأطفال</h2>
-            <p>التطبيق مخصص للفئة العمرية 13 سنة فما فوق. لا نجمع بيانات من الأطفال دون هذا العمر عمداً.</p>
+<h2>الأذونات</h2>
+<ul>
+<li>الكاميرا: لتصوير المسائل والنصوص الدراسية.</li>
+<li>الميكروفون: للإدخال الصوتي وطرح الأسئلة بالصوت.</li>
+<li>التخزين: لحفظ الصور المختارة.</li>
+</ul>
 
-            <h2>⚖️ حقوقك</h2>
-            <ul>
-                <li>الوصول إلى بياناتك</li>
-                <li>تصحيح بياناتك</li>
-                <li>حذف حسابك وبياناتك</li>
-                <li>إلغاء الاشتراك من الإشعارات</li>
-            </ul>
+<h2>خصوصية الأطفال</h2>
+<p>التطبيق مخصص لمن تبلغ أعمارهم 13 سنة فأكثر. لا نجمع عمداً بيانات من أطفال دون هذا العمر.</p>
 
-            <h2>🗑️ حذف الحساب والبيانات</h2>
-            <div class="highlight">
-                <p><strong>تطبيق Solvely AI</strong> يتيح لك حذف حسابك وجميع بياناتك بسهولة:</p>
-            </div>
+<h2>حقوقك</h2>
+<ul>
+<li>الوصول إلى بياناتك.</li>
+<li>تصحيح بياناتك.</li>
+<li>حذف حسابك وبياناتك.</li>
+<li>إيقاف الإشعارات في أي وقت.</li>
+</ul>
 
-            <h3>كيفية حذف حسابك:</h3>
-            <ol>
-                <li>افتح تطبيق <strong>Solvely AI</strong></li>
-                <li>اذهب إلى <strong>الملف الشخصي</strong> (Profile)</li>
-                <li>اضغط على <strong>حذف الحساب</strong></li>
-                <li>اختر <strong>نفس حساب Google</strong> الذي سجلت به للتأكيد</li>
-                <li>سيتم حذف حسابك وبياناتك فوراً</li>
-            </ol>
+<h2 id="delete-account">حذف الحساب والبيانات</h2>
+<p>يتيح لك Solvely AI حذف حسابك وبياناتك بنفسك من داخل التطبيق:</p>
+<ol>
+<li>افتح تطبيق Solvely AI.</li>
+<li>اذهب إلى الملف الشخصي (Profile).</li>
+<li>اضغط على «حذف الحساب».</li>
+<li>اختر حساب Google نفسه الذي سجلت به للتأكيد.</li>
+<li>يُحذف حسابك وبياناتك فوراً.</li>
+</ol>
+<p><strong>البيانات التي تُحذف:</strong> البريد الإلكتروني ومعلومات الحساب، وسجل الأسئلة والشروحات، وبيانات التقدم والنقاط، وكل البيانات المرتبطة بحسابك.</p>
+<p><strong>البيانات التي قد تُحتفظ بها مؤقتاً:</strong> سجلات الاشتراكات لمدة 30 يوماً للامتثال القانوني.</p>
+<p><strong>طريقة أخرى:</strong> يمكنك طلب الحذف عبر البريد <a href="mailto:bestlifecare1@gmail.com">bestlifecare1@gmail.com</a>، وسنعالج طلبك خلال 7 أيام عمل كحد أقصى.</p>
 
-            <h3>البيانات التي يتم حذفها:</h3>
-            <ul>
-                <li>✅ البريد الإلكتروني ومعلومات الحساب</li>
-                <li>✅ سجل الأسئلة والإجابات</li>
-                <li>✅ بيانات التقدم والنقاط</li>
-                <li>✅ جميع البيانات المرتبطة بحسابك</li>
-            </ul>
+<h2>تحديثات السياسة</h2>
+<p>قد نحدّث هذه السياسة من وقت لآخر، وسنُعلمك بأي تغييرات جوهرية عبر التطبيق.</p>
 
-            <h3>البيانات التي قد تُحتفظ بها مؤقتاً:</h3>
-            <ul>
-                <li>سجلات الاشتراكات (لمدة 30 يوماً للامتثال القانوني)</li>
-            </ul>
+<h2>تواصل معنا</h2>
+<p>لأي استفسار عن الخصوصية: <a href="mailto:bestlifecare1@gmail.com">bestlifecare1@gmail.com</a></p>
+</section>
 
-            <h3>طرق أخرى لطلب الحذف:</h3>
-            <p>يمكنك أيضاً طلب حذف حسابك عبر:</p>
-            <ul>
-                <li>البريد الإلكتروني: <a href="mailto:bestlifecare1@gmail.com">bestlifecare1@gmail.com</a></li>
-            </ul>
-            <p>سيتم معالجة طلبك خلال 7 أيام عمل كحد أقصى.</p>
+<section id="en" lang="en" dir="ltr">
+<h1>Privacy Policy</h1>
+<p><strong>Solvely AI - your study assistant</strong></p>
+<p class="mut">Last updated: October 2026</p>
 
-            <h2>🔄 تحديثات السياسة</h2>
-            <p>قد نحدث هذه السياسة من وقت لآخر. سنُعلمك بأي تغييرات جوهرية عبر التطبيق.</p>
+<h2>Introduction</h2>
+<p>We value your privacy and are committed to protecting it. This policy explains how we collect, use and protect your information.</p>
 
-            <div class="contact">
-                <h2 style="color:white; border:none; margin-top:0;">📧 تواصل معنا</h2>
-                <p>لأي استفسارات حول الخصوصية:</p>
-                <p><strong>البريد:</strong> bestlifecare1@gmail.com</p>
-            </div>
-        </div>
+<h2>Data we collect</h2>
+<ul>
+<li>Account information: your email address when you sign up.</li>
+<li>Usage data: the questions and images you send for explanation.</li>
+<li>Progress data: game points and achievements.</li>
+<li>Device data: device type and operating system.</li>
+</ul>
 
-        <div id="en-content" style="display:none; direction:ltr; text-align:left;">
-            <h1>🦉 Privacy Policy</h1>
-            <p class="subtitle">Solvely AI - Smart Study Assistant</p>
-            <p class="date">Last Updated: January 2025</p>
+<h2>How we use your data</h2>
+<ul>
+<li>To provide educational explanations and practice that help you understand.</li>
+<li>To improve the quality of the AI-generated explanations.</li>
+<li>To track your study progress.</li>
+<li>To send useful notifications (optional).</li>
+</ul>
 
-            <h2>📌 Introduction</h2>
-            <p>At Solvely AI, we value and are committed to protecting your privacy. This policy explains how we
-                collect, use, and protect your information.</p>
+<h2>Responsible academic use</h2>
+<p>Solvely AI is an educational tool meant to help you understand and practice. It is not intended for cheating on exams or for submitting someone else's work as your own, and we ask you to follow your school's academic integrity rules. AI-generated content can contain mistakes, so please verify important information with your teacher or textbook.</p>
 
-            <h2>📊 Data We Collect</h2>
-            <ul>
-                <li><strong>Account Info:</strong> Email address upon registration</li>
-                <li><strong>Usage Data:</strong> Questions and images submitted for solving</li>
-                <li><strong>Progress Data:</strong> Gamification points and achievements</li>
-                <li><strong>Device Info:</strong> Device type and OS version</li>
-            </ul>
+<h2>Data sharing</h2>
+<p>We use the following services:</p>
+<ul>
+<li>Google Firebase: data storage and authentication.</li>
+<li>Google Gemini AI: processing your questions and generating explanations.</li>
+<li>Google AdMob: displaying ads.</li>
+<li>Leaderboard: your display name, photo and points are visible to all other users.</li>
+</ul>
+<p>We do not sell your personal data to any third party. We may show personalized or non-personalized ads depending on user settings and Google policies.</p>
 
-            <h2>🎯 How We Use Your Data</h2>
-            <div class="highlight">
-                <ul>
-                    <li>Provide problem-solving and homework help services</li>
-                    <li>Improve AI answer accuracy</li>
-                    <li>Track your study progress</li>
-                    <li>Send helpful notifications (optional)</li>
-                </ul>
-            </div>
+<h2>Data security</h2>
+<ul>
+<li>Encryption of data in transit (HTTPS).</li>
+<li>Firestore security rules.</li>
+<li>Secure sign-in through Firebase Auth.</li>
+</ul>
 
-            <h2>🤝 Data Sharing</h2>
-            <p>We use the following services:</p>
-            <ul>
-                <li><strong>Google Firebase:</strong> For data storage and authentication</li>
-                <li><strong>Google Gemini AI:</strong> For processing questions and generating answers</li>
-                <li><strong>RevenueCat:</strong> For subscription management</li>
-                <li><strong>Google AdMob:</strong> For displaying ads</li>
-                <li><strong>Leaderboard:</strong> Your display name, photo, and points will be visible to all other
-                    users to enable competitive features.</li>
-            </ul>
-            <p>We do not sell your personal data to third parties.</p>
-            <p>We may display personalized or non-personalized ads in accordance with user preferences and Google
-                policies.</p>
+<h2>Permissions</h2>
+<ul>
+<li>Camera: to photograph problems and study texts.</li>
+<li>Microphone: for voice input and asking questions by voice.</li>
+<li>Storage: to save the images you select.</li>
+</ul>
 
-            <h2>🔒 Data Security</h2>
-            <p>We protect your data through:</p>
-            <ul>
-                <li>Encryption in transit (HTTPS)</li>
-                <li>Firestore security rules</li>
-                <li>Secure authentication via Firebase Auth</li>
-            </ul>
+<h2>Children's privacy</h2>
+<p>The app is intended for users aged 13 and over. We do not knowingly collect data from children under this age.</p>
 
-            <h2>📷 Permissions</h2>
-            <ul>
-                <li><strong>Camera:</strong> To photograph problems and homework</li>
-                <li><strong>Microphone:</strong> For voice input and asking questions by voice</li>
-                <li><strong>Storage:</strong> To save selected images</li>
-            </ul>
+<h2>Your rights</h2>
+<ul>
+<li>Access your data.</li>
+<li>Correct your data.</li>
+<li>Delete your account and data.</li>
+<li>Turn off notifications at any time.</li>
+</ul>
 
-            <h2>👶 Children's Privacy</h2>
-            <p>This app is intended for users aged 13 and above. We do not knowingly collect data from children under
-                this age.</p>
+<h2 id="delete-account-en">Delete your account and data</h2>
+<p>Solvely AI lets you delete your account and data yourself, from inside the app:</p>
+<ol>
+<li>Open the Solvely AI app.</li>
+<li>Go to your Profile.</li>
+<li>Tap "Delete account".</li>
+<li>Choose the same Google account you signed in with to confirm.</li>
+<li>Your account and data are deleted immediately.</li>
+</ol>
+<p><strong>Data that is deleted:</strong> your email and account information, your question and explanation history, your progress and points, and all other data linked to your account.</p>
+<p><strong>Data that may be kept temporarily:</strong> subscription records for 30 days for legal compliance.</p>
+<p><strong>Other way to request deletion:</strong> email <a href="mailto:bestlifecare1@gmail.com">bestlifecare1@gmail.com</a>. We will process your request within 7 business days.</p>
 
-            <h2>⚖️ Your Rights</h2>
-            <ul>
-                <li>Access your data</li>
-                <li>Correct your data</li>
-                <li>Delete your account and data</li>
-                <li>Opt-out of notifications</li>
-            </ul>
+<h2>Policy updates</h2>
+<p>We may update this policy from time to time. We will notify you of any material changes through the app.</p>
 
-            <h2>🗑️ Account & Data Deletion</h2>
-            <div class="highlight">
-                <p><strong>Solvely AI</strong> allows you to easily delete your account and all associated data:</p>
-            </div>
-
-            <h3>How to Delete Your Account:</h3>
-            <ol>
-                <li>Open the <strong>Solvely AI</strong> app</li>
-                <li>Go to <strong>Profile</strong></li>
-                <li>Tap <strong>Delete Account</strong></li>
-                <li>Select the <strong>same Google account</strong> you registered with to confirm</li>
-                <li>Your account and data will be deleted immediately</li>
-            </ol>
-
-            <h3>Data That Will Be Deleted:</h3>
-            <ul>
-                <li>✅ Email and account information</li>
-                <li>✅ Question and answer history</li>
-                <li>✅ Progress data and points</li>
-                <li>✅ All data associated with your account</li>
-            </ul>
-
-            <h3>Data That May Be Retained Temporarily:</h3>
-            <ul>
-                <li>Subscription records (for 30 days for legal compliance)</li>
-            </ul>
-
-            <h3>Alternative Deletion Methods:</h3>
-            <p>You can also request account deletion via:</p>
-            <ul>
-                <li>Email: <a href="mailto:bestlifecare1@gmail.com">bestlifecare1@gmail.com</a></li>
-            </ul>
-            <p>Your request will be processed within 7 business days maximum.</p>
-
-            <h2>🔄 Policy Updates</h2>
-            <p>We may update this policy from time to time. We will notify you of any significant changes through the
-                app.</p>
-
-            <div class="contact">
-                <h2 style="color:white; border:none; margin-top:0;">📧 Contact Us</h2>
-                <p>For any privacy inquiries:</p>
-                <p><strong>Email:</strong> bestlifecare1@gmail.com</p>
-            </div>
-        </div>
-    </div>
-
-    <script>
-        function toggleLang() {
-            const ar = document.getElementById('ar-content');
-            const en = document.getElementById('en-content');
-            const btn = document.querySelector('.lang-switch a');
-
-            if (ar.style.display === 'none') {
-                ar.style.display = 'block';
-                en.style.display = 'none';
-                btn.textContent = 'English';
-                document.documentElement.lang = 'ar';
-                document.documentElement.dir = 'rtl';
-            } else {
-                ar.style.display = 'none';
-                en.style.display = 'block';
-                btn.textContent = 'العربية';
-                document.documentElement.lang = 'en';
-                document.documentElement.dir = 'ltr';
-            }
-        }
-    </script>
+<h2>Contact us</h2>
+<p>For any privacy questions: <a href="mailto:bestlifecare1@gmail.com">bestlifecare1@gmail.com</a></p>
+</section>
+</main>
+<script>
+(function(){
+  var ar=document.getElementById('ar'),en=document.getElementById('en'),ba=document.getElementById('b-ar'),be=document.getElementById('b-en');
+  function show(l,u){
+    var isEn=l==='en';
+    en.className=isEn?'on':'';ar.className=isEn?'':'on';
+    document.documentElement.lang=l;document.documentElement.dir=isEn?'ltr':'rtl';
+    ba.setAttribute('aria-pressed',String(!isEn));be.setAttribute('aria-pressed',String(isEn));
+  }
+  function fromHash(){var h=location.hash;show(h==='#en'||h==='#delete-account-en'?'en':'ar');
+    if(h){var t=document.getElementById(h.slice(1));if(t&&t.scrollIntoView)t.scrollIntoView();}}
+  ba.onclick=function(){show('ar')};be.onclick=function(){show('en')};
+  window.addEventListener('hashchange',fromHash);fromHash();
+})();
+</script>
 </body>
+</html>
